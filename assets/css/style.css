@@ -189,6 +189,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #785f37;}
 --------------------------------------*/
 
 .welcome-hero{
+    /* Keep original container styles unchanged */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -199,16 +200,23 @@ nav.navbar.bootsnav .navbar-toggle i{color: #785f37;}
     height:890px;
     z-index: 1;
 }
+
 .welcome-hero:before{
     position:absolute;
-    content: " ";
-    margin-bottom: 260px;
-    left: 45%;;
-    background:url(../images/newedithandfold.png)no-repeat;
-    width:990px;
-    height:1150px;
+    content: "";
+    left: 80%; /* Changed from 45% */
+    bottom: 0%; /* Replaced margin-bottom with bottom positioning */
+    transform: translateX(-50%); /* Perfect horizontal centering */
+    background:url(../images/newedithandfold.png) no-repeat;
+    width: 70%; /* Responsive width */
+    max-width: 990px; /* Original max size */
+    height: auto; /* Maintain aspect ratio */
+    aspect-ratio: 990/1150; /* Original image proportion */
+    background-size: contain; /* Prevent image cropping */
     z-index: 0;
 }
+
+/* Keep original :after styles unchanged */
 .welcome-hero:after {
     position:absolute;
     content: " ";
@@ -216,7 +224,21 @@ nav.navbar.bootsnav .navbar-toggle i{color: #785f37;}
     left:0;
     width:100%;
     height:100%;
+}
 
+/* Mobile Adjustment */
+@media (max-width: 1200px) {
+    .welcome-hero:before {
+        bottom: 0%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .welcome-hero:before {
+        bottom: 0%;
+        width: 100%;
+    }
 }
 
 
