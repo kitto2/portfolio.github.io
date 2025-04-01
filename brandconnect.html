@@ -1,0 +1,934 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- title of site -->
+    <title>Project Details - Kriti</title>
+
+    <!-- Include all CSS files from index.html -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <style>
+        /* Additional Project Page Styles */
+        img{
+            border-radius: 15px;
+        }
+
+        .project-details {
+            padding: 120px 0 60px;
+            background: #0A0906;
+            color: #fff;
+        }
+
+        .project-title {
+            font-size: 3rem;
+            color: #cbb682;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .project-subtitle {
+            font-size: 1.6rem;
+            color: #fff;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .gallery-section .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery-item {
+        margin: 0 auto 40px; /* Modified margin */
+        max-width: 1000px;
+        width: 100%;
+        
+    }
+
+    .col-md-10 {
+        flex: 0 0 100%;
+        max-width: 1000px;
+        padding: 0;
+    }
+    .section-container {
+        margin: 80px 0;
+    }
+
+    .section-header {
+        margin-bottom: 50px;
+    }
+
+    .section-title {
+        font-size: 2.2rem;
+        color: #cbb682;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 15px;
+    }
+
+    .section-title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #cbb682 0%, rgba(203,182,130,0.2) 100%);
+    border-radius: 2px;
+}
+
+    .section-heading {
+        font-size: 2.0rem;
+        color: #cbb682;
+        margin-bottom: 15px;
+       
+       
+    }
+
+    .section-subtitle {
+        font-size: 1.6rem;
+        color: #ddd;
+        max-width: 100;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .gallery-grid {
+        padding: 20px 0;
+    }
+
+    .gallery-grid .row {
+        margin: -15px; /* Offset column padding */
+    }
+
+    .gallery-grid .col-md-3 {
+        padding: 15px;
+    }
+
+    @media (max-width: 768px) {
+        .section-title {
+            font-size: 1.8rem;
+        }
+        
+        .gallery-grid .col-md-3 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .gallery-grid .col-md-3 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    /* MY responsibilities*/
+.role-grid {
+    margin: 40px 0px;
+}
+
+.role-card {
+    background: rgba(255,255,255,0.03);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 15px 0;
+    border-left: 4px solid #cbb682;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.role-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+}
+
+.role-icon h1{
+    color: #cbb682;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.styled-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.styled-list li {
+    padding: 12px 0;
+    font-size: 1.6rem;
+    position: relative;
+    padding-left: 35px;
+    border-bottom: 1px solid rgba(203,182,130,0.1);
+}
+
+.styled-list li::before {
+    content: "•";
+    color: #cbb682;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.danger-card {
+    border-left: 4px solid #ff4757;
+}
+
+.success-card {
+    border-left: 4px solid #2ed573;
+}
+
+.highlight-text {
+    color: #cbb682;
+    font-weight: 600;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* Animations */
+.slide-in-bottom {
+    animation: slideFromBottom 0.8s ease-out;
+}
+
+@keyframes slideFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.role-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* problem and solution clean-bullets to match styled-list */
+.clean-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.clean-bullets li {
+    padding: 12px 0;
+    font-size: 1.6rem;
+    position: relative;
+    padding-left: 35px;
+    border-bottom: 1px solid rgba(203,182,130,0.1);
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.clean-bullets li::before {
+    content: "•";
+    color: #cbb682;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Keep existing media queries */
+@media (max-width: 768px) {
+    .clean-bullets li {
+        font-size: 1.4rem;
+        padding-left: 25px;
+    }
+    
+    .clean-bullets li::before {
+        font-size: 1.2rem;
+    }
+}
+/* Section Spacing Enhancements */
+.project-details > .container > * {
+    margin-bottom: 80px;
+}
+
+.gallery-section {
+    margin: 50px 0;
+    
+}
+
+.role-grid {
+    margin: 60px 0;
+}
+
+/* thank you */
+
+.thank-you-container {
+    padding: 100px 0;
+    background: #0A0906;
+    border-top: 1px solid rgba(203,182,130,0.1);
+}
+
+.thank-you-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.animated-thanks {
+    font-size: 2.8rem;
+    color: #fff;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.8s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.thank-you-text {
+    display: block;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.for-viewing {
+    display: block;
+    font-size: 1.8rem;
+    color: #cbb682;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.animated-underline {
+    width: 60px;
+    height: 2px;
+    background: #cbb682;
+    margin: 25px auto;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-out 0.6s forwards;
+}
+
+.animated-underline::after {
+    content: '';
+    position: absolute;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: lineFlow 1.5s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.followup-text {
+    font-size: 1.5rem;
+    color: #ddd;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease-out 0.9s forwards;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes lineFlow {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(200%); }
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+    .animated-thanks {
+        font-size: 2.2rem;
+    }
+    
+    .for-viewing {
+        font-size: 1.4rem;
+    }
+    
+    .followup-text {
+        font-size: 1.5rem;
+        padding: 0 20px;
+    }
+}
+
+             /* Creative Disclaimer */
+.creative-disclaimer {
+    margin-top: 25px;
+    padding: 12px 20px;
+    background: rgba(203,182,130,0.07);
+    border: 1px solid rgba(203,182,130,0.25);
+    border-radius: 6px;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    animation: fadeInUp 0.6s ease-out 1s forwards;
+    opacity: 0;
+    transform: translateY(10px);
+}
+
+.lock-icon {
+    flex-shrink: 0;
+    color: #cbb682;
+    width: 25px;
+}
+
+.creative-disclaimer span {
+    color: #d4c08b;
+    font-size: 1.75rem;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    line-height: 1.4;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Mobile Adjustments */
+@media (max-width: 768px) {
+    .creative-disclaimer {
+        margin: 20px 15px 0;
+        padding: 10px 15px;
+        display: flex;
+        text-align: left;
+    }
+    
+    .creative-disclaimer span {
+        font-size: 0.9rem;
+    }
+}
+
+
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Header matching index.html -->
+    <header class="top-area">
+        <div class="header-area">
+            <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Kriti Karki</a>
+                    </div>
+                    <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class=" smooth-menu"><a href="index.html">Home</a></li>
+                            <li class=" smooth-menu"><a href="index.html">about me</a></li>
+                            <li class=" smooth-menu"><a href="index.html#education">education</a></li>
+                           <li class="smooth-menu"><a href="index.html#skills">skills</a></li> 
+                            <li class="smooth-menu"><a href="index.html#portfolio">portfolio</a></li>
+                            <li class="smooth-menu"><a href="index.html#contact">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Project Details Content -->
+    <section class="project-details">
+        <div class="container">
+                      <!-- Main Section -->
+                      <div class="text-center">
+                        <h1 class="project-title">Brand-Connect Application- Case Study</h1>
+                        <p class="section-subtitle">BrandConnect is a white-label platform for brand owners and influencers to manage their brand, sell on Daraz, auto-post on social media, and engage with customers. 
+                            It offers a three-step portfolio setup, customizable templates, and a subscription-based branded app launch.</p>
+                    </div>
+            
+                    <!-- First Gallery Section -->
+                    <div class="gallery-section">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <div class="gallery-item">
+                                    <a href="" data-lightbox="project-gallery">
+                                        <img src="assets/images/portfolio/app-design/brandonnect/Cover.png" alt="User Flow Diagram">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--MY roles & Responsibilites-->
+                    <div class="section-container  "> 
+                        <div class="section-header text-center slide-in-bottom">
+                            <h2 class="section-title">My Roles & Responsibilities</h2>
+                            <p class="project-subtitle">Lead UI Designer | Brand-Connect Project</p>
+                        </div>
+                        
+                        <div class="row role-grid">
+                            <div class="col-md-6 role-item">
+                                <div class="role-card slide-in-left">
+                                    <div class="role-icon">🎨&nbsp;&nbsp;<h1>UI Design </h1></div>
+                                    <ul class="styled-list">
+                                        <li>Create visually appealing and consistent interfaces.</li>
+                                        <li>Design responsive layouts for mobile and web.</li>
+                                        <li> Develop interactive prototypes and design systems.</li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                            <div class="col-md-6 role-item">
+                                <div class="role-card slide-in-right">
+                                    <div class="role-icon">🔍&nbsp;&nbsp;<h1>User Research</div>
+                                    <ul class="styled-list">
+                                        <li>Conducted Secondary Analysis and usability tests.</li>
+                                        <li> Analyze user behavior and pain points.</li>
+                                        <li>Gather feedback to improve the experience.</li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                            <div class="col-md-6 role-item">
+                                <div class="role-card slide-in-right">
+                                    <div class="role-icon">🧩&nbsp;&nbsp;<h1>UX Strategy </div>
+                                    <ul class="styled-list">
+                                        <li>Define user journeys, User Persona, target users and problem statement.</li>
+                                        <li>Align design with business objectives.</li>
+                                        <li>Optimize onboarding, navigation, and interactions.</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <!-- <div class="col-md-6 role-item">
+                                <div class="role-card slide-in-right">
+                                    <div class="role-icon">🤝&nbsp;&nbsp;<h1>Collaboration</div>
+                                    <ul class="styled-list">
+                                        <li>Provided detailed UI prototypes for smooth development for the frontend development.</li>
+                                        <li>Worked closely with developers to refine form functionalities & data flow.</li>
+                                        <li> Ensured a seamless user experience across desktop & mobile versions.</li>
+                                    </ul>
+                                </div>
+                            </div>-->
+                           
+                        </div>  
+                    </div>
+              
+                     <!--Problem statements and Solutions-->
+                     <div class="section-container">
+                        <!-- Problem Section -->
+                        <div class="slide-in-bottom">
+                            <h2 class="section-title text-center">The Key Problem</h2>
+                            <div class="content-wrapper">
+                                <ul class="clean-bullets">
+                                    <li>Small brands struggle to establish an online presence.</li>
+                                    <li>Manual posting is time-consuming.</li>
+                                    <li>Selling products across platforms is complex.</li>
+                                    <li>Lack of direct communication with audiences.</li>
+                                    <li>Developing a personal branded app is expensive.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <!-- Solution Section -->
+                        <div class="slide-in-bottom">
+                            <h2 class="section-title text-center">The Solution</h2>
+                            <div class="content-wrapper">
+                                <ul class="clean-bullets">
+                                    <li>Helps brand owners showcase their work professionally.</li>
+                                    <li>Syncs social media for effortless content management.</li>
+                                    <li> Simplifies product listing and sales.</li>
+                                    <li>Enhances direct customer engagement.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                   <!-- New Section -->
+                    <div class="section-container">
+                        <div class="text-center section-header">
+                            <h2 class="section-title">Brainstorming & Sketches</h2>
+                            <p class="-subtitle">Early Concepts and Creative Exploration</p>
+                        </div>
+            
+                        <div class="gallery-grid">
+                            <div class="row">
+                                <!-- Gallery Item 1 -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="gallery-item">
+                                        <a href="assets/images/portfolio/app-design/brandonnect/sketches.png" data-lightbox="Sketches" >
+                                            <img src="assets/images/portfolio/app-design/brandonnect/sketches.png" alt="Wireframe 1">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Gallery Item 2 -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="gallery-item">
+                                        <a href="assets/images/portfolio/app-design/brandonnect/sketches1.png" data-lightbox="Sketches">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/sketches1.png" alt="Wireframe 2">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Gallery Item 3 -->
+                                <div class="col-md-4 col-sm-6">
+                                    <div class="gallery-item">
+                                        <a href="assets/images/portfolio/app-design/brandonnect/Brainstorming.png"data-lightbox="design-gallery">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/Brainstorming.png" alt="UI Design">
+                                        </a>
+                                    </div>
+                                </div>
+                               
+
+                            </div>
+                        </div>
+                    </div> 
+                    
+                     <!-- Use Case & Target User-->
+                     <div class="section-container">
+                        <div class="text-center section-header">
+                            <h2 class="section-title">Use case & Target user</h2>
+                            <p class="-subtitle">Defining who will use the app and the scenarios it serves.</p>
+                        </div>
+            
+                        <div class="gallery-grid">
+                            <div class="row">
+                                <!-- Gallery Item 1 -->
+                                <div class="col-md-54 col-sm-56">
+                                    <div class="gallery-item">
+                                        <a href="assets/images/portfolio/app-design/brandonnect/sketches.png" data-lightbox="Sketches" >
+                                            <img src="assets/images/portfolio/app-design/brandonnect/Target User, App Structure.png" alt="Wireframe 1">
+                                        </a>
+                                    </div>
+                                </div>
+                                <!-- Gallery Item 2 -->
+                                <div class="col-md-54 col-sm-56">
+                                    <div class="gallery-item">
+                                        <a href="assets/images/portfolio/app-design/brandonnect/sketches1.png" data-lightbox="Sketches">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/Use Case.png" alt="Wireframe 2">
+                                        </a>
+                                    </div>
+                                </div>
+                               
+
+                            </div>
+                        </div>
+                    </div> 
+                    
+
+                      <!--user Flow-->
+                      <div class="section-container">
+                        <div class="text-center section-header">
+                            <h2 class="section-title">User Flow (Influencor) </h2>
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-1">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/userflow.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!--Competitor analysis-->
+                     <div class="section-container">
+                        <div class="text-center section-header">
+                            <h2 class="section-title">Competitor Analysis </h2>
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/Competitor.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                     <!--key pages-->
+                     <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h2 class="section-title">key pages</h2>
+                            <br>
+                            <br>
+                            <h3 class="section-heading">Onboarding page</h3>
+                            <p class="section-subtitle">
+                                The Splash Screen is the first screen users see when they open the BrandConnect Influencer App, displaying the app logo and branding before transitioning to the login/signup page.
+                                <br>
+                                The Login/Signup Page allows existing users to enter their credentials and access the app, while new users can sign up using email or social login. 
+                                After signing up, users proceed to the Onboarding Screens, where they choose between Brand Owner or Influencer, which determines their dashboard features. 
+                                This step ensures a personalized experience based on their role before directing them to profile setup. 
+                            </p>
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/onboarding.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h3 class="section-heading">Profile Setup page</h3>
+                            <p class="section-subtitle">
+                                The Profile Setup consists of three steps, customized for Brand Owners and Influencers.
+                                <br>
+                                Brand Owners enter business details, connect social accounts, and choose a portfolio template to showcase their brand.
+                                 Influencers provide personal details, link social platforms, and set up their content portfolio. 
+                                 Both complete setup before accessing their respective dashboards
+                            </p>
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/Seup profile.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h3 class="section-heading">Homepage page</h3>
+                            <p class="section-subtitle">
+                                The Home Screen displays a search bar for easy navigation, notifications for updates, 
+                                Today’s Schedule showing planned posts and tasks, and a section for Recent Posts to quickly view and interact with the latest content. 
+                                It serves as a central hub for managing daily activities and staying updated.
+                            </p>
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/Homepage.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h3 class="section-heading">Schedule screens</h3>
+                            <p class="section-subtitle">
+                                The Schedule Tab helps users manage their content and communication efficiently. 
+                                The Post Schedule section allows users to review and track upcoming or past posts, ensuring timely publishing. 
+                                The Message Schedule section lets users schedule and check pre-written messages, automatically sending them on the set date. 
+                                This streamlined scheduling ensures organized content planning and seamless audience engagement.
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/Post schedule.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h3 class="section-heading"> Shop page</h3>
+                            <p class="section-subtitle">
+                                The Shop Menu displays a categorized product list, featuring sections for on-sale items and promotional banners. 
+                                Users can view, edit, or delete products, ensuring easy management of their storefront. 
+                                This section helps Brand Owners organize and promote their offerings efficiently
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/Shop tab.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h3 class="section-heading">chat & Notification page</h3>
+                            <p class="section-subtitle">
+                                The Chat & Notification Page, accessed via buttons on the Schedule Tab, allows seamless communication and updates. 
+                                The Chat Page integrates multiple channels, displaying messages from each and enabling users to respond directly. 
+                                The Notification Page provides real-time updates on important activities, ensuring users stay informed and engaged.
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/Chat and Notification.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h3 class="section-heading">profile page</h3>
+                            <p class="section-subtitle">
+                                The Profile Page features an edit profile option, displays connected social media channels, and shows the user's followers at the top. 
+                                It includes three main tabs: Portfolio for showcasing work, Settings for account preferences, and Analytics for tracking performance and engagement. 
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/Profile.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                       <!--Styles Guide-->
+                       <div class="section-container">
+                        <div class="text-center section-header">
+                            <h2 class="section-title">Styles Guide </h2>
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-1">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/brandonnect/styles.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!--thank you-->
+                    <div class="thank-you-container">
+                        <div class="thank-you-inner">
+                            <h2 class="animated-thanks">
+                                <span class="thank-you-text">Thank You</span>
+                                <span class="for-viewing">for Viewing</span>
+                            </h2>
+                            <div class="animated-underline"></div>
+                            <p class="followup-text">Feel free to reach out for any questions.</p>
+                            <div class="creative-disclaimer">
+                                <svg class="lock-icon" viewBox="0 0 24 24" width="18">
+                                    <path fill="currentColor" d="M12 17a2 2 0 0 1-2-2c0-1.11.89-2 2-2a2 2 0 0 1 2 2 2 2 0 0 1-2 2m6 3V10H6v10h12m0-12a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V10a2 2 0 0 1 2-2h1V6a5 5 0 0 1 5-5 5 5 0 0 1 5 5v2h1m-6-2V6a3 3 0 0 0-3-3 3 3 0 0 0-3 3v2h6z"/>
+                                </svg>
+                                <span>Usage Restriction: These designs are proprietary and cannot be used without permission.</span>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+  
+        
+    </section>
+    
+
+    <!-- Include all JS files from index.html -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        // Initialize Lightbox
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'albumLabel': 'Image %1 of %2'
+        });
+
+        // Smooth scroll for navigation links
+        $(document).ready(function(){
+            $('a[href^="#"]').on('click', function(event) {
+                event.preventDefault();
+                var target = $(this.getAttribute('href'));
+                if( target.length ) {
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top - 70
+                    }, 1000);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

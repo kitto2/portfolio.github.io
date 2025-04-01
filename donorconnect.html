@@ -1,0 +1,798 @@
+<!doctype html>
+<html class="no-js" lang="en">
+<head>
+    <!-- meta data -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <!-- title of site -->
+    <title>Project Details - Kriti</title>
+
+    <!-- Include all CSS files from index.html -->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/flaticon.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <style>
+        /* Additional Project Page Styles */
+        img{
+            border-radius: 15px;
+        }
+
+        .project-details {
+            padding: 120px 0 60px;
+            background: #0A0906;
+            color: #fff;
+        }
+
+        .project-title {
+            font-size: 3rem;
+            color: #cbb682;
+            margin-bottom: 1rem;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .project-subtitle {
+            font-size: 1.6rem;
+            color: #fff;
+            margin-bottom: 40px;
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .gallery-section .row {
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery-item {
+        margin: 0 auto 40px; /* Modified margin */
+        max-width: 1000px;
+        width: 100%;
+        
+    }
+
+    .col-md-10 {
+        flex: 0 0 100%;
+        max-width: 1000px;
+        padding: 0;
+    }
+    .section-container {
+        margin: 80px 0;
+    }
+
+    .section-header {
+        margin-bottom: 50px;
+    }
+
+    .section-title {
+        font-size: 2.2rem;
+        color: #cbb682;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+        font-weight: bold;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 15px;
+    }
+
+    .section-title:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(90deg, #cbb682 0%, rgba(203,182,130,0.2) 100%);
+    border-radius: 2px;
+}
+
+
+    
+  
+    .section-heading {
+        font-size: 2.0rem;
+        color: #cbb682;
+        margin-bottom: 15px;
+       
+       
+    }
+
+    .section-subtitle {
+        font-size: 1.6rem;
+        color: #ddd;
+        max-width: 100;
+        margin: 0 auto;
+        text-align: justify;
+    }
+
+    .gallery-grid {
+        padding: 20px 0;
+    }
+
+    .gallery-grid .row {
+        margin: -15px; /* Offset column padding */
+    }
+
+    .gallery-grid .col-md-3 {
+        padding: 15px;
+    }
+
+    @media (max-width: 768px) {
+        .section-title {
+            font-size: 1.8rem;
+        }
+        
+        .gallery-grid .col-md-3 {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+    }
+
+    @media (max-width: 576px) {
+        .gallery-grid .col-md-3 {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+    }
+
+    /* MY responsibilities*/
+.role-grid {
+    margin: 40px 0px;
+}
+
+.role-card {
+    background: rgba(255,255,255,0.03);
+    border-radius: 15px;
+    padding: 30px;
+    margin: 15px 0;
+    border-left: 4px solid #cbb682;
+    transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.role-icon {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    opacity: 0.9;
+    display: flex;
+    align-items: center;
+}
+
+.role-icon h1{
+    color: #cbb682;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+.styled-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.styled-list li {
+    padding: 12px 0;
+    font-size: 1.6rem;
+    position: relative;
+    padding-left: 35px;
+    border-bottom: 1px solid rgba(203,182,130,0.1);
+}
+
+.styled-list li::before {
+    content: "•";
+    color: #cbb682;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.danger-card {
+    border-left: 4px solid #ff4757;
+}
+
+.success-card {
+    border-left: 4px solid #2ed573;
+}
+
+.highlight-text {
+    color: #cbb682;
+    font-weight: 600;
+    display: inline-block;
+    margin: 10px 0;
+}
+
+/* Animations */
+.slide-in-bottom {
+    animation: slideFromBottom 0.8s ease-out;
+}
+
+@keyframes slideFromBottom {
+    from {
+        opacity: 0;
+        transform: translateY(40px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.role-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* problem and solution clean-bullets to match styled-list */
+.clean-bullets {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.clean-bullets li {
+    padding: 12px 0;
+    font-size: 1.6rem;
+    position: relative;
+    padding-left: 35px;
+    border-bottom: 1px solid rgba(203,182,130,0.1);
+    color: #ddd;
+    line-height: 1.6;
+}
+
+.clean-bullets li::before {
+    content: "•";
+    color: #cbb682;
+    font-size: 1.5rem;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Keep existing media queries */
+@media (max-width: 768px) {
+    .clean-bullets li {
+        font-size: 1.4rem;
+        padding-left: 25px;
+    }
+    
+    .clean-bullets li::before {
+        font-size: 1.2rem;
+    }
+}
+/* Section Spacing Enhancements */
+.project-details > .container > * {
+    margin-bottom: 80px;
+}
+
+.gallery-section {
+    margin: 50px 0;
+    
+}
+
+.role-grid {
+    margin: 60px 0;
+}
+
+/* thank you */
+
+.thank-you-container {
+    padding: 100px 0;
+    background: #0A0906;
+    border-top: 1px solid rgba(203,182,130,0.1);
+}
+
+.thank-you-inner {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.animated-thanks {
+    font-size: 2.8rem;
+    color: #fff;
+    margin-bottom: 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeUp 0.8s ease-out forwards;
+    animation-delay: 0.3s;
+}
+
+.thank-you-text {
+    display: block;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.for-viewing {
+    display: block;
+    font-size: 1.8rem;
+    color: #cbb682;
+    margin-top: 10px;
+    font-weight: 300;
+}
+
+.animated-underline {
+    width: 60px;
+    height: 2px;
+    background: #cbb682;
+    margin: 25px auto;
+    position: relative;
+    overflow: hidden;
+    opacity: 0;
+    animation: fadeIn 0.8s ease-out 0.6s forwards;
+}
+
+.animated-underline::after {
+    content: '';
+    position: absolute;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    animation: lineFlow 1.5s ease-in-out infinite;
+    animation-delay: 1s;
+}
+
+.followup-text {
+    font-size: 1.5rem;
+    color: #ddd;
+    letter-spacing: 0.5px;
+    margin-top: 30px;
+    opacity: 0;
+    animation: fadeUp 0.8s ease-out 0.9s forwards;
+}
+
+@keyframes fadeUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes lineFlow {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(200%); }
+}
+
+@keyframes fadeIn {
+    to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+    .animated-thanks {
+        font-size: 2.2rem;
+    }
+    
+    .for-viewing {
+        font-size: 1.4rem;
+    }
+    
+    .followup-text {
+        font-size: 1.5rem;
+        padding: 0 20px;
+    }
+}
+
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Header matching index.html -->
+    <header class="top-area">
+        <div class="header-area">
+            <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="index.html">Kriti Karki</a>
+                    </div>
+                    <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class=" smooth-menu"><a href="index.html">Home</a></li>
+                            <li class=" smooth-menu"><a href="index.html">about me</a></li>
+                            <li class=" smooth-menu"><a href="index.html#education">education</a></li>
+                           <li class="smooth-menu"><a href="index.html#skills">skills</a></li> 
+                            <li class="smooth-menu"><a href="index.html#portfolio">portfolio</a></li>
+                            <li class="smooth-menu"><a href="index.html#contact">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Project Details Content -->
+    <section class="project-details">
+        <div class="container">
+                      <!-- Main Section -->
+                      <div class="text-center">
+                        <h1 class="project-title">Donorconnect-App design<br>(Donation Management app)-- Case Study</h1>
+                        <p class="section-subtitle">DonorConnect is a donation management application designed to streamline the process of collecting, managing, and tracking donations for charitable causes. The app provides a platform where donors can easily contribute to various causes, track their donation history, and receive updates on the impact of their contributions. It aims to connect donors with organizations and projects that align with their values, making charitable giving more accessible, transparent, and efficient.
+                            <br>
+                            The app typically includes features like login and signup options, a homepage showcasing different causes, a request menu where users can submit donation requests, a favorites menu to save preferred causes, and a profile page to manage user details and donation history. The goal of DonorConnect is to create a seamless, user-friendly experience for both donors and organizations, helping to foster a community of giving and support.</p>
+                    </div>
+            
+                    <!-- First Gallery Section -->
+                    <div class="gallery-section">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <div class="gallery-item">
+                                    <a href="" data-lightbox="project-gallery">
+                                        <img src="assets/images/portfolio/app-design/donorconect/donorconnect.jpg" alt="User Flow Diagram">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!--MY roles & Responsibilites-->
+                    <div class="section-container  "> 
+                        <div class="section-header text-center slide-in-bottom">
+                            <h2 class="section-title">My Roles & Responsibilities</h2>
+                            <p class="project-subtitle">Lead UI Designer | Dating-App Project</p>
+                        </div>
+                        
+                        <div class="row role-grid">
+                            <div class="col-md-6 role-item">
+                                <div class="role-card slide-in-left">
+                                    <div class="role-icon">🎨&nbsp;&nbsp;<h1>UI Design </h1></div>
+                                    <ul class="styled-list">
+                                        <li>Ensure visual consistency (colors, fonts, icons) across all screens for a cohesive user experience.</li>
+                                        <li>Create interactive elements (e.g., buttons, forms, filters) for seamless navigation between tabs.</li>
+                                        <li>Refine visual hierarchy to guide user attention.</li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                            <div class="col-md-6 role-item">
+                                <div class="role-card slide-in-right">
+                                    <div class="role-icon">🔍&nbsp;&nbsp;<h1>User Research</div>
+                                    <ul class="styled-list">
+                                        <li>Identify user personas and map pain points through secondary analysis .</li>
+                                        <li>Conduct competitor analysis of similar apps (e.g., blood donation platforms) to benchmark features.</li>
+                                        <li>Document feedback to refine UI/UX.</li>
+                                    </ul>
+                                </div>
+                            </div>
+        
+                         <!-- <div class="col-md-6 role-item">
+                                <div class="role-card slide-in-right">
+                                    <div class="role-icon">🧩&nbsp;&nbsp;<h1>UX Strategy </div>
+                                    <ul class="styled-list">
+                                        <li>Developed an intuitive user journey, making navigation effortless and engagement seamless.</li>
+                                        <li>Optimized the onboarding process with optional steps like Kundali input to improve user retention.</li>
+                                        <li>Designed a balanced matchmaking system incorporating both astrology and personal preferences</li>
+                                    </ul>
+                                </div>
+                            </div>-->
+
+                             <div class="col-md-6 role-item">
+                                <div class="role-card slide-in-right">
+                                    <div class="role-icon">🤝&nbsp;&nbsp;<h1>Collaboration</div>
+                                    <ul class="styled-list">
+                                        <li>Hold weekly syncs with the developer to align on technical feasibility </li>
+                                        <li>Participate in design reviews to ensure UI components  match code implementation.</li>
+                                        <li>Iterate designs based on developer feedback .</li>
+                                    </ul>
+                                </div>
+                            </div>
+                           
+                        </div>  
+                    </div>
+              
+                     <!--Problem statements and Solutions-->
+                     <div class="section-container">
+                        <!-- Problem Section -->
+                        <div class="slide-in-bottom">
+                            <h2 class="section-title text-center">The Key Problem</h2>
+                            <div class="content-wrapper">
+                                <ul class="clean-bullets">
+                                    <li>Hard to find nearby donations due to poor location filtering.</li>
+                                    <li>No trust in users (e.g., fake donors/requests).</li>
+                                    <li>Coordination happens outside the app (e.g., WhatsApp).</li>
+                                    <li>Old posts clutter the app (e.g., expired donations).</li>
+                                </ul>
+                            </div>
+                        </div>
+                    
+                        <!-- Solution Section -->
+                        <div class="slide-in-bottom">
+                            <h2 class="section-title text-center">The Solution</h2>
+                            <div class="content-wrapper">
+                                <ul class="clean-bullets">
+                                    <li>Add location-based search (e.g., "Show donations within 5 km").</li>
+                                    <li>Verify users via phone/email and let donors/recipients rate each other.</li>
+                                    <li>Hide contact details until requests are accepted + add basic in-app messaging..</li>
+                                    <li>Auto-remove old posts after 30 days or let users mark items as "Claimed."</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+        
+                  
+
+                      <!--user Flow-->
+                      <div class="section-container">
+                        <div class="text-center section-header">
+                            <h2 class="section-title">User Flow (Donorconnect interface) </h2>
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-1">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/donorconect/donorconnectflow.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!--Competitor analysis-->
+                     <div class="section-container">
+                        <div class="text-center section-header">
+                            <h2 class="section-title">Competitor Analysis </h2>
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/donorconect/Competitor.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                     <!--key pages-->
+                     <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h2 class="section-title">key pages</h2>
+                            <br>
+                            <br>
+                            <h3 class="section-heading">Onboarding page</h3>
+                            <p class="section-subtitle">
+                                The onboarding screen offers a streamlined sign-up/login process. 
+                                Legal agreements and notification opt-ins are placed below to avoid clutter. 
+                                The login section supports phone/email entry, includes a “Remember Me” toggle, and quick links for password recovery or switching to sign-up. 
+                            </p>
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/donorconect/onbaording.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h3 class="section-heading">Homescreen page</h3>
+                            <p class="section-subtitle">
+                                The homepage enables users to discover donation items through a search bar, category filters , and a "Recommendations" section.
+                                 Each post previews the item type, description, owner’s name, and posting date, allowing quick browsing of nearby donations.
+                                <br>
+                                This screen provides complete donation information, including price (K150), category tags, detailed item description, owner profile, and a "Request" button to initiate contact.
+                                 It centralizes all necessary details for users to assess and claim donations.
+                            </p>
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/donorconect/Homescrren.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h3 class="section-heading">Donation request accepted page</h3>
+                            <p class="section-subtitle">
+                                Post-request acceptance, this screen provides a scannable QR code and the pickup address for item collection.
+                                 Users can revisit the original post details via the "VIEW POST DETAIL" button, ensuring seamless coordination between donors and recipients.
+                                <br>
+                                Post Details screen displays comprehensive donation information, including the item category , detailed description, pickup address, and masked contact details.
+                                 A "View in map" option helps users locate the item.
+                            </p>
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/donorconect/donation qr.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h3 class="section-heading">Create Post screens</h3>
+                            <p class="section-subtitle">
+                                This screen allows users to list items for donation. 
+                                It starts with an option to upload a photo of the item, followed by fields for entering a title, description, and selecting the item’s condition .
+                                 A second version adds category tags to improve discoverability. 
+                                The process culminates with a prominent "Create Post" button, ensuring a straightforward and intuitive donation listing experience.
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/donorconect/Create post.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h3 class="section-heading">Saved/Bookmarks page</h3>
+                            <p class="section-subtitle">
+                                This page organizes all donation posts saved by the user into a centralized list. 
+                                Each bookmarked item displays the donation title, category, owner name, and posting date for quick reference. 
+                                Users can filter saved posts by category  or search by keywords to locate specific items.
+                                 A "Remove" option allows easy management of bookmarks, ensuring the list stays relevant and up-to-date. 
+                                The design emphasizes simplicity and quick access to prioritized donations.
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/donorconect/saved.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h3 class="section-heading">Requests page</h3>
+                            <p class="section-subtitle">
+                                This screen displays a list of active donation requests made by the user, organized under specific headers like "K150" with status indicators such as "Online" or "Supplies." 
+                                Each request includes the item’s title, a short description, the requester’s name, and the date of the request.
+                                 Entries are grouped by category or urgency, with instructional text clarifying request validity periods or usage rules. 
+                                The layout emphasizes clarity, using consistent formatting for dates, requester details, and status tags to facilitate quick scanning and management of ongoing donation activities.
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/donorconect/Requested items.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="section-container">
+                        <div class="text-center slide-in-bottom">
+                            <h3 class="section-heading">profile page</h3>
+                            <p class="section-subtitle">
+                                The profile screen showcases the user’s name, profile photo, and activity statistics for posts, followers, and following. 
+                                An "Edit Profile" option allows updating personal details such as email, username, and address. 
+                                A section lists the user’s donation posts with titles and engagement metrics. Navigation to settings includes account management, password changes, notification preferences, and privacy controls. 
+                                Logout and app customization features are accessible at the bottom for seamless account management.
+                        </div>
+            
+                        <div class="gallery-section">
+                            <div class="row">
+                                <div class="col-md-25 offset-md-8">
+                                    <div class="gallery-item">
+                                        <a href="">
+                                            <img src="assets/images/portfolio/app-design/donorconect/Profile.png" alt="User Flow Diagram">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <!--thank you-->
+                    <div class="thank-you-container">
+                        <div class="thank-you-inner">
+                            <h2 class="animated-thanks">
+                                <span class="thank-you-text">Thank You</span>
+                                <span class="for-viewing">for Viewing</span>
+                            </h2>
+                            <div class="animated-underline"></div>
+                            <p class="followup-text">Feel free to reach out for any questions.</p>
+                        </div>
+                    </div>
+        </div>
+  
+        
+    </section>
+    
+
+    <!-- Include all JS files from index.html -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/bootsnav.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+        // Initialize Lightbox
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'albumLabel': 'Image %1 of %2'
+        });
+
+        // Smooth scroll for navigation links
+        $(document).ready(function(){
+            $('a[href^="#"]').on('click', function(event) {
+                event.preventDefault();
+                var target = $(this.getAttribute('href'));
+                if( target.length ) {
+                    $('html, body').stop().animate({
+                        scrollTop: target.offset().top - 70
+                    }, 1000);
+                }
+            });
+        });
+    </script>
+</body>
+</html>

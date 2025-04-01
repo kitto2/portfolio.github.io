@@ -34,7 +34,7 @@ $(document).ready(function(){
 	
 	//Multitext-Hero
 	var typingEffect = new Typed(".multiText",{
-		strings : ["UI/UX designer","Frontend Developer","Laravel Developer"],
+		strings : ["UI/UX designer","Frontend Developer"],
 		loop: true,
 		typeSpeed: 100,
 		backSpeed: 80,
